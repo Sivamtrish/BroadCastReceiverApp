@@ -11,6 +11,7 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * This is how to create a context Broadcast Receiver
+     * Initialize your broadcast receiver
      **/
     AirplaneModeStateReceiver airplaneModeStateReceiver = new AirplaneModeStateReceiver();
     TimeZoneChangeBroadcastReceiver timeZoneChangeBroadcastReceiver = new TimeZoneChangeBroadcastReceiver();
